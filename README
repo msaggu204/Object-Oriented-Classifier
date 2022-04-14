@@ -1,0 +1,32 @@
+# ------------------------------------------------------------------
+#   Assignment #1: OOClassifier
+#-------------------------------------------------------------------
+
+Included Files:
+	*ooclassifier.py
+	*README
+
+Running Instructions:
+	1. Run the code via "from ooclassifier import *" or similar. This would be the driver code that would be required in order to run this program, such as "a1.task.1.unittest.v01".  
+	2. Any additional arguments or too few arguments being passed through the command line will result in an error message. Therefore, the program can be run with or without any special conditions but will not run otherwise. For example, "python3 preprocess.py keep-frutti" is not an acceptable use case, and will result in an error message.
+
+Notes and Assumptions:
+
+	1. No error messages are to be produced if a mode other than keep-digits, keep symbols, or keep-stops is entered. If none of these modes are present, then normal preprocessing will take place.
+	2. ClassifyByTopN includes a method target_top_n which replaces the current list of target words with a new list of target words based on word frequency. More specifically, if there is a tie for the count at the num-th rank, then ALL of the words in that same count are also included in the new list of target words.
+	3. We are not to be concerned with any time or space efficienty issues related to the use of deepcopy.
+
+Functionality included outside of the exercise/assignment specifications:
+
+	None.
+
+Arduino-based components needed to run the program & wiring instructions:
+
+	N/A.
+
+Makefile targets & explanation of such targets:
+
+	N/A.
+
+Acknowledgements:
+	Much of the starter code was provided by Dr. Lu and the teaching assistants for this course.
